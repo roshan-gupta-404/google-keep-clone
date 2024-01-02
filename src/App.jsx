@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Background from './assets/components/Background'
-import Foreground from './assets/components/Foreground'
+import Background from './components/Background'
+import Foreground from './components/Foreground'
 
 function App() {
   const [count, setCount] = useState(0)
